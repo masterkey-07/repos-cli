@@ -1,0 +1,19 @@
+{
+  "name": "repos-cli",
+  "version": "1.0.0",
+  "description": "A CLI program that will have a tools to help with repositories management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterkey-07/repos-cli.git"
+  },
+  "author": "Victor Jorge Carvalho Chaves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masterkey-07/repos-cli/issues"
+  },
+  "homepage": "https://github.com/masterkey-07/repos-cli#readme"
+}
