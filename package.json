@@ -1,8 +1,10 @@
 {
-  "name": "repos-cli",
+  "name": "repos",
   "version": "1.0.0",
   "description": "A CLI program that will have a tools to help with repositories management",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/masterkey-07/repos-cli/issues"
   },
-  "homepage": "https://github.com/masterkey-07/repos-cli#readme"
+  "homepage": "https://github.com/masterkey-07/repos-cli#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "config": "^3.3.6"
+  }
 }
